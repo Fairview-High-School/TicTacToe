@@ -1,12 +1,12 @@
 import turtle
 import time
-import square.Square # get the Square class from Square.py
+import square # get the Square class from Square.py
 
 ################################################################################################################
 
 #SETUP TURTLE ENVIRONMENT (Screen, Turtles, Costumes)-------------
 
-square = Square() #Just like a Turtle() but has a position number.  The default is 0.
+square = square.Square() #Just like a Turtle() but has a position number.  The default is 0.
 square.onclick(square.playSquare)
 screen = turtle.Screen()
 screen.setup(400,400)
